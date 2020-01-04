@@ -16,9 +16,9 @@ How to:
 
 issues and hints:
 
-note1: you most likely will have to modify the startHeroes.bat skript by writing the correct name for your game.exe
-note2: you will have to play the player vs player combat together on one pc.
-note3: since this skript uses the autosave which occurs at the end of the turn, you will allways be able to see your friends position when you resume the save (i would love to be able to save the game state during the black screen between hotseat swaps)
-note4: I am using the HOMMIII HD mod which can be downloaded here:  (https://sites.google.com/site/heroes3hd/)
+1. you most likely will have to modify the startHeroes.bat skript by writing the correct name for your game.exe
+2. you will have to play the player vs player combat together on one pc.
+3. since this skript uses the autosave which occurs at the end of the turn, you will allways be able to see your friends position when you resume the save (i would love to be able to save the game state during the black screen between hotseat swaps)
+4. I am using the HOMMIII HD mod which can be downloaded here:  (https://sites.google.com/site/heroes3hd/)
 
 If you have any suggestions i will be happy to improve this skript if time and intellect allow it.
