@@ -21,4 +21,4 @@ issues and hints:
 3. since this skript uses the autosave which occurs at the end of the turn, you will allways be able to see your friends position when you resume the save (i would love to be able to save the game state during the black screen between hotseat swaps)
 4. I am using the HOMMIII HD mod which can be downloaded here:  (https://sites.google.com/site/heroes3hd/)
 
-If you have any suggestions i will be happy to improve this skript if time and intellect allow it.
+If you have any suggestions i will be happy to improve this skript if my time and intellect allow it.
