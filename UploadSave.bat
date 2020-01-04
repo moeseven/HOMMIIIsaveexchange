@@ -7,10 +7,11 @@ copy "..\games\AUTOSAVE.GM2" "save.GM2"
 pause
 Set turn=$(head -n 1 "turncount.txt")
 pause
-Set next_turn=$((turn + 1))
+Set next_turn=$((%turn% + 1))
+echo %next_turn%
 pause
-echo $next_turn > turncount.txt
+echo %next_turn% > turncount.txt
 git add .   
-git commit -m "$next_turn"
+git commit -m "%next_turn%"
 git push origin tm
  
