@@ -1,2 +1,3 @@
-..\HEROES3HD.exe
-pause
+cd ..
+HEROES3HD.exe
+cd gitSaveFileExchange

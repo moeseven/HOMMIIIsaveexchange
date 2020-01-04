@@ -5,6 +5,7 @@
 
 :: fetch newest save from github
 @echo off
+SET currentDirectory=%cd%
 set /p turn=< turncount.txt
 echo %turn%
 git pull origin tm
@@ -18,8 +19,6 @@ IF %turn_remote% GTR %turn% (
 	call startHeroes.bat
 	echo next stage will upload save
 	pause
-	SET var=%cd%
-	ECHO %var%
 	call UploadSave.bat
 ) ELSE (
 	echo there is no new save
