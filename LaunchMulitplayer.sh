@@ -15,10 +15,12 @@ echo $turn_remote
 if (($turn_remote > $turn)); then #only do all if there is a new save available
 read -p "Press [Enter] key to continue...inside if condition"
 cp save.GM2 ../games/yourturn.GM2
+echo "you have a new save, start HOMM and play your turn"
 #launch HOMMIII
 
 else
 echo "there is no new save"
 fi
-../HEROES3HD
-read -p "Press [Enter] key to continue..."
+read -p "Press [Enter] key to after you finished your turn in order to upload"
+sh ./UploadSave.sh
+read -p "Press [Enter] key to end"

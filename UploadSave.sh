@@ -10,7 +10,6 @@ cp ../games/AUTOSAVE.GM2 save.GM2
 turn=$(head -n 1 "turncount.txt")
 next_turn=$((turn + 1))
 echo $next_turn > turncount.txt
-git add .  
-read -p "Commit description: " desc  
-git commit -m "$desc"
+git add .   
+git commit -m "$next_turn"
 git push origin tm
