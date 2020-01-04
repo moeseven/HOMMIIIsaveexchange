@@ -8,7 +8,7 @@ Log
 }
 
 HOMM3 HD version: 5.0 RC73
-Time {   01/04/2020	17:25:04 }
+Time {   01/04/2020	23:50:14 }
 
 GUN:  [DWVMIDBZHG8999ON964-8IP827]
 
@@ -21,7 +21,7 @@ Exception
    Information: 0x00000000 
 }
 
-Context { EAX: 0x00000000, ECX: 0x009D0000, EDX: 0x009D0000, EBX: 0x002D7000, ESP: 0x0019F8EC, EBP: 0x0019FAA0, ESI: 0x74DC2B40, EDI: 0x0061A884 }
+Context { EAX: 0x00000000, ECX: 0x009A0000, EDX: 0x009A0000, EBX: 0x003A1000, ESP: 0x0019F8EC, EBP: 0x0019FAA0, ESI: 0x63DA2B40, EDI: 0x0061A884 }
 
 Call stack
 {
@@ -69,4 +69,4 @@ Modules
    0x76680000: cryptsp.dll	 (size: 0x00013000, entry point: 0x76685D20) - C:\WINDOWS\System32\cryptsp.dll
    0x75880000: ole32.dll	 (size: 0x000F7000, entry point: 0x758BA0D0) - C:\WINDOWS\System32\ole32.dll
    0x74740000: VERSION.dll	 (size: 0x00008000, entry point: 0x747417F0) - C:\WINDOWS\SYSTEM32\VERSION.dll
-   0x73720000: WINMM.dll	 (size: 0x00024000, entry point: 0x73724350) - C:\
+   0x74990000: WINMM.dll	 (size: 0x00024000, entry point: 0x74994350) - C:\

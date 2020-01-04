@@ -1,2 +1,2 @@
-cd..
-HEROES3HD.exe
+..\HEROES3HD.exe
+pause
