@@ -11,4 +11,3 @@ echo %next_turn% > turncount.txt
 git add .   
 git commit -m "%next_turn%"
 git push origin tm
-pause
