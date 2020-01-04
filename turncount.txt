@@ -1,1 +1,1 @@
-7
+$next_turn 
