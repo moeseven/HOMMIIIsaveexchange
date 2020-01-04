@@ -11,8 +11,9 @@ How to:
 3. then create your own remote git repository (with write access for you and your friend) and push this folders content to it
 4. now start a hotseat 2 player campaign and play your first turn after you hit end turn you run the UploadSave.bat (this step is only followed for the first turn of the map or when you and your friend started a Hotseat game and now want to continue playing your map over the internet)
 5. your friend will then just have to run the LaunchMultiplayer.bat (it will start the game for him if there is a new save available e.g. you played your turn allready)
-6. your friend plays his turn, hits end turn then alt+F4 and hit enter in the console (the new save will be uploaded)
-7. jump to 5 and now its your turn ...
+6. your friend loads the yourturn save file in HotSeat
+7. your friend plays his turn, hits end turn then alt+F4 and hit enter in the console (the new save will be uploaded)
+8. jump to 5 and now its your turn ...
 
 issues and hints:
 
