@@ -7,7 +7,7 @@ copy "..\games\AUTOSAVE.GM2" "save.GM2"
 pause
 Set /p turn=< turncount.txt
 pause
-Set next_turn=/A ((%turn% + 1))
+set /a next_turn=((%turn% + 1))
 echo %next_turn%
 pause
 echo %next_turn% > turncount.txt
