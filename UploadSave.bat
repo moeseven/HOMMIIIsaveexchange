@@ -4,6 +4,7 @@
 
 :: upload latest autosave to github
 copy "..\games\AUTOSAVE.GM2" "save.GM2"
+copy "..\games\AUTOSAVE.GM2" "..\games\yourlastturn.GM2"
 set /p turn=< turncount.txt
 set /a next_turn=((%turn% + 1))
 echo %next_turn%
