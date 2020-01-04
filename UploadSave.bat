@@ -5,7 +5,7 @@
 :: upload latest autosave to github
 copy "..\games\AUTOSAVE.GM2" "save.GM2"
 pause
-Set turn=$(head -n 1 "turncount.txt")
+Set /p turn=< turncount.txt
 pause
 Set next_turn=$((%turn% + 1))
 echo %next_turn%
