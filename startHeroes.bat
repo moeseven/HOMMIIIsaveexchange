@@ -1,3 +1,3 @@
 cd ..
-HEROES3HD.exe
+start "" "HEROES3HD.exe"
 cd gitSaveFileExchange

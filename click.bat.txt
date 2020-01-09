@@ -1,0 +1,15 @@
+@echo off &setlocal
+set posX=100
+set posy=100
+powershell -ExecutionPolicy ByPass -Command ^"^
+	Add-Type -A System.Windows.Forms;^
+	Add-Type -Memberdefinition '[DllImport(\"user32.dll\")]public static extern void mouse_event(int dwFlags, int dx, int dy, 
+int dwData, int dwExtraInfo);' -Namespace Tools -Name Mouse ;^
+	$pos = new-object System.Drawing.Point %posX%,%posY%;^
+	[System.Windows.Forms.Cursor]::Position = $pos;^
+	[Tools.Mouse]::mouse_event(2,$pos.X,$posY,0,0);^
+	[Tools.Mouse]::mouse_event(4,$pos.X,$posY,0,0);^
+	sleep 2;^
+        [System.Windows.Forms.Cursor]::Position = $pos;^
+	[Tools.Mouse]::mouse_event(2,$pos.X,$posY,0,0);^
+	[Tools.Mouse]::mouse_event(4,$pos.X,$posY,0,0);^"
