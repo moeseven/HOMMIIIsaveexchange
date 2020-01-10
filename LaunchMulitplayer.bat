@@ -10,8 +10,6 @@ set /p turn=< turncount.txt
 echo %turn%
 git pull origin tm
 set /p turn_remote=< turncount.txt
-call startHeroes.bat
-	call hommnavigate.vbs
 echo %turn_remote%
 IF %turn_remote% GTR %turn% (
     copy save.GM2 ..\games\yourturn.GM2
