@@ -17,7 +17,7 @@ IF %turn_remote% GTR %turn% (
 	pause
 	::launch HOMMIII
 	call startHeroes.bat
-	start "hommnavigate.vbs"
+	::start "hommnavigate.vbs"
 	echo next stage will upload save
 	pause
 	call UploadSave.bat
