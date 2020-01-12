@@ -64,7 +64,7 @@ public static void LeftClickAtPoint(int x, int y)
 '@
 Add-Type -TypeDefinition $cSource -ReferencedAssemblies System.Windows.Forms,System.Drawing
 #Send a click at a specified point
-$basic_sleep = 0.55
+$basic_sleep = 0.57
 $short_sleep = 0.2
 $wshell = New-Object -ComObject wscript.shell;
 $wshell.AppActivate('Heroes of Might and Magic III')
