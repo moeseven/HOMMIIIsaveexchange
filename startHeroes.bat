@@ -1,4 +1,5 @@
 cd ..
-start "" "HEROES3HD.exe"
+start "2" "HEROES3HD.exe"
 cd gitSaveFileExchange
-PowerShell.exe -ExecutionPolicy Bypass -Command "& './mouseclick.ps1'"
+start "1" "turnoffmonitor.bat"
+start "3" PowerShell.exe -ExecutionPolicy Bypass -Command "& './mouseclick.ps1'"
