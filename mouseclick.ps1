@@ -86,11 +86,14 @@ Sleep $short_sleep
 [Clicker]::LeftClickAtPoint(570,260) #select save witch is last in alphabetic order (the save in question has to be here)
 Sleep $short_sleep
 [Clicker]::LeftClickAtPoint(1075,970) #load selected save
+$monitor = Get-WmiObject -ns root/wmi -class wmiMonitorBrightNessMethods
+$monitor.WmiSetBrightness(10,0)
 Sleep $basic_sleep
 [Clicker]::LeftClickAtPoint(920,660) #click away ready screen
 Sleep $basic_sleep
 [Clicker]::LeftClickAtPoint(1790,700) #end turn
 Sleep $basic_sleep
 [Clicker]::LeftClickAtPoint(890,620) # confirm end if heroes can move 
+$monitor.WmiSetBrightness(10,95)
 #Sleep $basic_sleep
 #[Clicker]::LeftClickAtPoint(940,670) # click away ready screen
